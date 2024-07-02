@@ -1,0 +1,23 @@
+.box {
+    flex: 1;
+    height: 150px;
+    font-size: 40px;
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .a {
+    background: #B6BFA0;
+  }
+  
+  .b {
+    background: #6D9887;
+  }
+  
+  .c {
+    background: #EC82B5;
+  }
+  

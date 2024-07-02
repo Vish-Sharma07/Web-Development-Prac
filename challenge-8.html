@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-1 challenge</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(6, minmax(100px, 1fr));
+            grid-gap: 20px;
+            grid-auto-columns: minmax(300px, auto);
+            grid-auto-rows: minmax(50px, auto);
+            }
+            .items{
+            background-color: lightgreen;
+            border: 3px yellowgreen solid;
+            border-radius: 3px;
+          
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items" id="item-1">Dabba 1</div>
+        <div class="items" id="item-2">Dabba 2</div>
+        <div class="items" id="item-3">Dabba 3</div>
+        <div class="items" id="item-4">Dabba 4</div>
+        <div class="items" id="item-5">Dabba 5</div>
+        <div class="items" id="item-6">Dabba 6</div>
+    </div>
+</body>
+</html>
